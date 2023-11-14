@@ -1,0 +1,481 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>GADS-Geeks At Designing Solutions</title>
+    <meta content="" name="descriptison" />
+    <meta content="" name="keywords" />
+
+    <link href="./title-gads.png" rel="icon" />
+    <link href="./title-gads.png" rel="apple-touch-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet" />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/owl.carousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet" />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+
+    <!-- Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+      body {
+        background: white;
+      }
+
+      section {
+        padding: 60px 0;
+        overflow: hidden;
+      }
+
+      .event-section-title {
+        padding-bottom: 10px;
+      }
+
+      .event-section-title h2 {
+        font-size: 14px;
+        font-weight: 500;
+        padding: 0;
+        line-height: 1px;
+        margin: 0 0 5px 0;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #aaaaaa;
+        font-family: "Poppins", sans-serif;
+      }
+
+      .event-section-title h2::after {
+        content: "";
+        width: 120px;
+        height: 1px;
+        display: inline-block;
+        background: #000000;
+        margin: 4px 10px;
+      }
+
+      .event-section-title p {
+        margin: 0;
+        margin: 0;
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: "Poppins", sans-serif;
+        color: #151515;
+      }
+
+      #landing-page {
+        width: 100%;
+        height: 50%;
+        background: rgb(0, 0, 0);
+        border-radius: 0px 0px 30px 30px;
+      }
+
+      #landing-page:before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+      }
+
+      #landing-page .container {
+        position: relative;
+        padding-top: 10px;
+        text-align: center;
+      }
+
+      #landing-page h4 {
+        margin: 0;
+        font-size: 56px;
+        font-weight: 600;
+        line-height: 64px;
+        color: #fff;
+        font-family: "Poppins", sans-serif;
+      }
+
+      #landing-pageh4 span {
+        color: #000000;
+      }
+
+      #landing-page h4 {
+        color: rgba(255, 255, 255, 0.9);
+        margin: 10px 0 0 0;
+        font-size: 24px;
+      }
+
+      #landing-page h1 {
+        font-family: "Poppins", sans-serif;
+        font-size: 28px;
+        line-height: 36px;
+        color: white;
+        font-weight: bolder;
+        font-size: 20vh;
+      }
+
+      #landing-page .icon-box:hover {
+        background: #000000;
+        color: #000000;
+        border: 1px solid #000000;
+      }
+
+      @media (min-width: 1024px) {
+        #landing-page {
+          background-attachment: fixed;
+        }
+      }
+
+      @media (max-width: 1040px) {
+        #landing-page {
+          height: auto;
+        }
+
+        #landing-page h1 {
+          font-family: "Poppins", sans-serif;
+          font-size: 38px;
+          line-height: 36px;
+          color: white;
+          font-weight: bolder;
+        }
+
+        #landing-page h2 {
+          font-size: 20px;
+          line-height: 24px;
+        }
+      }
+
+      .back-btn {
+        background: rgba(0, 0, 0, 0);
+        color: #ffffff;
+      }
+
+      .back-btn:hover {
+        background: rgba(0, 0, 0, 0.39);
+        color: #ffffff;
+      }
+
+      .gads-container {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        justify-content: center;
+        height: auto;
+      }
+
+      .gads-container a {
+        width: 400px;
+      }
+
+      .mycard {
+        width: 400px;
+        height: auto;
+        margin: 10px;
+        background-color: rgb(255, 255, 255);
+        box-sizing: border-box;
+        text-decoration: none;
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        justify-content: center;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        margin-bottom: 50px;
+      }
+
+      .mycard:hover {
+        box-shadow: 0 8px 16px 0 rgb(99, 99, 99);
+      }
+
+      .mycard img {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+        border-radius: 10px;
+      }
+
+      .mycard h1 {
+        font-weight: 900;
+        font-size: 28px;
+      }
+
+      .mycard p {
+        padding: 0px;
+      }
+      .topic {
+        font-size: 20;
+      }
+      @media (max-width: 1040px) {
+        .mycard h1 {
+          font-weight: 900;
+          font-size: 20px;
+        }
+
+        .mycard {
+          margin-bottom: 10px;
+        }
+      }
+      .gads-div {
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        justify-content: space-around;
+        align-items: center;
+        height: auto;
+        background: black;
+        border-radius: 15px 15px 0px 0px;
+      }
+      .gads-image-div {
+        box-sizing: border-box;
+        text-decoration: none;
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        width: 900px;
+        height: auto;
+        margin: 10px;
+        background: rgba(59, 59, 59, 0);
+      }
+      .gads-image-div img {
+        width: 100%;
+        height: auto;
+      }
+      .host {
+        font-size: 20;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center justify-content-between">
+        <h1 class="logo text-white" style="font-family: Poppins, sans-serif">
+          GADS
+        </h1>
+        <nav class="nav-menu d-none d-lg-block">
+          <ul>
+            <li class=""><a class="text-white" href="index.html">Home</a></li>
+          </ul>
+        </nav>
+        <!-- .nav-menu -->
+      </div>
+    </header>
+
+    <section
+      id="landing-page"
+      class="d-flex align-items-center justify-content-center"
+    >
+      <div class="container" data-aos="fade-up">
+        <div
+          class="row justify-content-center"
+          data-aos="fade-up"
+          data-aos-delay="150"
+        >
+          <h1 style="color: rgb(255, 255, 255)">WORKSHOPS</h1>
+        </div>
+      </div>
+    </section>
+
+    <section id="feature" class="testimonials pb-1" style="background: none">
+      <div class="container">
+        <div class="event-section-title">
+          <h2 class="text-black">Event Details</h2>
+          <p class="text-black">Three Week long Workshop Series</p>
+        </div>
+        <div class="section-body">
+          <p>
+            Interface in association with Tathva'20 of NIT Calicut collaborates
+            with GADS to present an exciting and enlightening workshop series on
+            various paramount topics of the decennium. The workshop will append
+            the concepts of Ethical Hacking and Cyber security, Introduction to
+            Deep Learning and Introduction to Web Development. This theme of
+            series illuminates your skills and proffers you a stretch in the
+            emerging technical era.
+          </p>
+        </div>
+      </div>
+    </section>
+    <div class="gads-conatiner">
+      <div class="text-center">
+        <p class="text-black topic"><b>Topic Details</b></p>
+      </div>
+    </div>
+    <div class="gads-container mt-2">
+      <div class="mycard">
+        <img src="assets/img/workshop3.png" alt="" />
+        <h1><strike>Web Development with HTML, CSS & Javascript</strike></h1>
+        <p>
+          This workshop is designed to provide insights about the core topics of
+          Web Development with a project. Web development is an in-demand skill
+          of this decade and with the basic understanding on HTML, CSS, and
+          JavaScript, you can develop your own website. With this workshop, you
+          can reflect your ideas on your page with stylings and host it on
+          github. You’ll be provided with an E-handbook and all the assets for
+          your page along with 5-days mentorship.
+        </p>
+        <p style="color: red; font-weight: bold">Registration closed</p>
+      </div>
+
+      <div class="mycard">
+        <img src="assets/img/workshop2.png" alt="" />
+        <h1><strike>Introduction to Deep Learning</strike></h1>
+        <p>
+          This workshop details out the core concepts of Deep Learning, like
+          neural networks, difference between deep learning and machine
+          learning, deep learning models and some more interesting topics. To
+          get you deeper into the concepts, there will be a project-based
+          session where you would learn to develop a chatbot through deep
+          learning. With the basic knowledge in python you can grasp mastery in
+          GUI with tkinter, Keras, NLP and could finally develop your own
+          chatbot. You will also be provided with an E-handbook along with 5-day
+          mentorship for doubt clearance.
+        </p>
+        <p style="color: red; font-weight: bold">Registration closed</p>
+      </div>
+
+      <div class="mycard">
+        <img src="assets/img/workshop1.png" alt="" />
+        <h1><strike>Cyber Security & Ethical Hacking</strike></h1>
+        <p>
+          This workshop envelopes the introduction of CIA triad, ITIL, X800,
+          malware and some more interesting and core topics along with some
+          briefing on Computer Security Challenges and Attacks & Threats in the
+          Cyber space. Some important hacking tips and tricks are essential to
+          thrive in the cyber world safely. On this workshop you’ll get to grab
+          some interesting and helpful tips and hacking techniques that could
+          keep you safe on the cyber world and also an E-handbook on Cyber
+          security and Ethical Hacking.
+        </p>
+        <p style="color: red; font-weight: bold">Registration closed</p>
+      </div>
+    </div>
+
+    <div class="gads-container mb-5 mt-5">
+      <a
+        href="https://www.interfacecommunity.co.in/form/register.html"
+        class="btn black ml-2 mr-2"
+        >Register</a
+      >
+    </div>
+
+    <div class="gads-div">
+      <div class="pt-2">
+        <p class="text-white host">Hosts along with GADS</p>
+      </div>
+      <div class="gads-image-div">
+        <img src="assets/img/tathva event/tathva-event-host-logo.png" />
+      </div>
+    </div>
+
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="footer-info">
+                <h3>GADS<span>.</span></h3>
+                <p>
+                  TBI GEC Barton Hill<br />
+                  Trivandrum, 695035, India<br /><br />
+                  <strong>Phone:</strong> +91 8136879150<br />
+                  <strong>Email:</strong>
+                  <a href="mailto:enquiry@gadssolutions.in" style="color: white"
+                    ><u> enquiry@gadssolutions.in</u></a
+                  ><br />
+                </p>
+                <div class="social-links mt-3">
+                  <a
+                    href="https://www.facebook.com/GeeksAtDesigningSolutions"
+                    class="facebook"
+                    ><i class="bx bxl-facebook"></i
+                  ></a>
+                  <a href="https://instagram.com/gads_llp" class="instagram"
+                    ><i class="bx bxl-instagram"></i
+                  ></a>
+                  <a href="https://twitter.com/gads_it" class="twitter"
+                    ><i class="bx bxl-twitter"></i
+                  ></a>
+                  <a
+                    href="https://www.linkedin.com/company/gads"
+                    class="linkedin"
+                    ><i class="bx bxl-linkedin"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="./index.html">Home</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="./terms.html">Terms of service</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="./policy.html">Privacy policy</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>GADS</span></strong> All Rights
+          Reserved
+        </div>
+      </div>
+    </footer>
+
+    <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
+    <div id="preloader"></div>
+
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="assets/vendor/counterup/counterup.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
