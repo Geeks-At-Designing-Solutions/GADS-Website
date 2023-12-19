@@ -15,8 +15,8 @@
   -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
   transform: rotate(45deg);
    
-  border-right: 2px solid white;
-  border-bottom: 2px solid white;
+  border-right: 2px solid rgb(210, 39, 36);
+  border-bottom: 2px solid rgb(210, 39, 36);
   margin: 0 0 3px 4px;
   
   width: 16px;
@@ -77,7 +77,7 @@
   width: 24px;
   border-radius: 14px;
   transform: none;
-  border: 2px solid white;
+  border: 2px solid rgb(210, 39, 36);
   top: 170px;
 }
 
@@ -86,12 +86,12 @@
   width: 2px;
   display: block;
   margin: 5px auto;
-  background: white;
+  background: #fff;
   position: relative;
   
   height: 4px;
   width: 4px;
-  border: 2px solid #fff;
+  border: 2px solid rgb(210, 39, 36);
   -webkit-border-radius: 8px;
           border-radius: 8px;
 }

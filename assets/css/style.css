@@ -12,6 +12,13 @@ body {
 h1,h2,h3,h4,h5,p, li{
   font-family: 'Poppins', sans-serif !important;
 }
+
+.inv{
+  /* filter: invert(1) hue-rotate(345deg); */
+  filter: invert(1) hue-rotate(175deg) saturate(1.9) brightness(1.1);
+  
+}
+
 .dark-mode{
   filter: invert(1) hue-rotate(180deg)
 }
@@ -247,7 +254,7 @@ cursor: pointer;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #757575;
+  color: #ff969b;
   
 }
 
@@ -472,12 +479,23 @@ cursor: pointer;
 --------------------------------------------------------------*/
 
 
+
+
+
+
+
+
   #hero {
+  
   width: 100%;
   height: 100%;
-   background: url("../img/bg-imgs/background-image.jpg") top center; 
+  
+   background: url("../img/bg-imgs/bg1.png") top center; 
+   background-position: 0px -230px;
+  
   background-size: cover;
   position: relative;
+  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -486,7 +504,8 @@ cursor: pointer;
   #hero {
     width: 100%;
     height: 100%;
-    background: url("../img/bg-imgs/background-image.jpg") top center;
+    background: url("../img/bg-imgs/bg_phone.jpg") top center;
+
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -497,7 +516,7 @@ cursor: pointer;
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.404);
+  /* background: rgba(0, 0, 0, 0.204); */
   position: absolute;
   bottom: 0;
   top: 0;
